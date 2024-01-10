@@ -12,10 +12,14 @@
     <div class="btn-start">
         <button class="btn btn-warning btn-lg">Start Quiz</button>
     </div>
-
     <div class="card quiz-box">
         <header class="header card-header">
             <div class="title">Quiz App</div>
+            <div class="timer">
+                <div class="time-text">Kalan Süre</div>
+                <div class="time-second">10</div>
+            </div>
+            <div class="time-line"></div>
         </header>
         <section class="card-body">
             <div class="question-text">
@@ -41,8 +45,18 @@
             </div>
         </section>
         <footer class="card-footer">
+            <div class="question-index">
+            </div>
             <button class="next-btn btn btn-primary btn-sm">Next Question</button>
         </footer>
+    </div>
+    <div class="card score-box">
+        <div class="icon"><i class="fas fa-crown"></i></div>
+        <div class="score-text"></div>
+        <div class="buttons">
+            <button class="btn btn-primary btn-replay">Tekrar Başlat</button>
+            <button class="btn btn-primary btn-quit">Testi Bitir</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
